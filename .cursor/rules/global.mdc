@@ -1,6 +1,0 @@
----
-description: 
-globs: 
-alwaysApply: true
----
-Using bun as the default dependency node package manager.

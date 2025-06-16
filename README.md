@@ -13,13 +13,6 @@ A Chrome extension that adds a floating AI-powered rewording button to text inpu
 - **AI Integration**: Powered by OpenRouter API with customizable prompts
 - **Lightweight**: Focused on core functionality without background scripts or additional tabs
 
-## Installation
-
-1. Clone this repository
-2. Run `bun install` to install dependencies
-3. Run `bun run build` to build the extension
-4. Load the `dist` folder in Chrome as an unpacked extension
-
 ## Configuration
 
 ### Basic Settings
@@ -62,22 +55,6 @@ The extension automatically detects akEditor elements using the selector `.akEdi
 3. **Select text** to rephrase (or leave unselected to rephrase all content)
 4. The AI will rephrase your text and replace it automatically
 
-## Development
-
-```bash
-# Install dependencies
-bun install
-
-# Development mode with auto-reload
-bun run dev
-
-# Build for production
-bun run build
-
-# Type checking
-bun run type-check
-```
-
 ## Supported Elements
 
 - `<input type="text">` and other text input types
@@ -109,6 +86,3 @@ This extension follows a lightweight architecture:
 - **Side Panel**: Additional interface for extension management
 - **No Background Script**: Simplified architecture without persistent background processes
 
-## License
-
-MIT License
